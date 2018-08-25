@@ -1,10 +1,10 @@
 # -*- coding: cp1252 -*-
 
-#Altitude Converter - Alexander St.
+#Altitude Converter - Alexander Stadelmann
 #This Converter has the following purpose:
 #Convert Altitude and Time Data from a text file to Acceleration and Speed Data and save in a text file
 
-D = input("Wieviele Datensätze? ")
+D = input("How many data sets? ")
 St = open("Alti.txt", "r")
 Ti = open("Time.txt", "r")
 Ac = open("Acceleration.txt", "a")
