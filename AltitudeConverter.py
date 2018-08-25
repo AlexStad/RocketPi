@@ -3,6 +3,7 @@
 #Altitude Converter - Alexander Stadelmann
 #This Converter has the following purpose:
 #Convert Altitude and Time Data from a text file to Acceleration and Speed Data and save in a text file
+#Create two text files in the directory of this script called: "Alti.txt" and "Time.txt", containing one dataset per line.
 
 D = input("How many data sets? ")
 St = open("Alti.txt", "r")
